@@ -1,0 +1,20 @@
+body{
+ background-color: lightblue;
+}
+
+.judul {
+    font-style: italic;
+}
+
+/* .kotak{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.blog {
+    border: 1px solid;
+    width: 50%;
+} */
