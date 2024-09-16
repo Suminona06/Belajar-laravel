@@ -3,15 +3,15 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('home', ['title' => 'Homepage']);
 });
 
 Route::get('/about', function () {
-    return view('about', ['nama' => 'Azis']);
+    return view('about', ['title' => 'Azis']);
 });
 
 Route::get('/blog', function () {
-    return view('blog');
+    return view('blog', ['title' => 'BlogPage']);
 });
 
 Route::get('/contact', function () {
